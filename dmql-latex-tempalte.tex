@@ -59,6 +59,9 @@
         % Sample Postgresql Query code, must be enclised in ``minted'' tag.
         \begin{minted}[bgcolor = LightGray,fontsize = \footnotesize,]{postgresql}
             
+            SELECT  * FROM student \\
+            NATURAL JOIN takes, course \\
+            WHERE takes.course_id = course.course_id
             
         \end{minted}
       
