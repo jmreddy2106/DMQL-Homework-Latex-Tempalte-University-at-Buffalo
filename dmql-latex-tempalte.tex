@@ -1,0 +1,76 @@
+\documentclass[12 pts]{article}
+\usepackage{setspace}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{vmargin}
+\usepackage[colorlinks=true, pdfborder={0 0 0}, linkcolor=red]{hyperref}
+\usepackage{xcolor}
+\usepackage{minted}
+\usepackage{newlfont}
+\usepackage[top = 5.00cm, bottom = 1.50cm, left = 4.00cm, right  = 1.5cm]{geometry}
+\definecolor{LightGray}{gray}{0.9}
+\usemintedstyle{xcode}
+\usepackage[parfill]{parskip}
+\usepackage{alltt}
+
+\author{}
+\date{}
+\linespread{1.25} % setting line space
+
+
+%%%%%%%%%%%% Your document begins from here %%%%%%%%%%%% 
+\begin{document}
+
+    % Don't modify below line except your details
+    \voffset-2.5cm
+    \parbox{3cm}{\includegraphics [width=25mm,scale=0.3]{ub_logo.png} }
+    \parbox{8cm}{{\Large
+        {CSE 4/560}\\
+        {Databases and Query Languages}\\
+        {Homework 1}\\
+        {Total Marks 100}\\
+        }
+    }
+    
+    \vspace{1cm}
+    
+    \parbox{8cm}{
+        {Your Name: {\bf NAME} }   \\
+        {Your email ID: {\bf EMAIl ID} }   \\
+        {Your UB Person Number: {\bf Student ID} }   \\
+    }
+    % don't modify above lines except your details
+    
+    
+    \begin{enumerate}[1.]
+    % write every quextion within ``enumerate'' tag. Every question begins with ``item'' tag.
+    
+        \item ~[points] Question
+        
+        Answer: 
+        
+        % Sample Postgresql Query code, must be enclised in ``minted'' tag.
+        \begin{minted}[bgcolor = LightGray,fontsize = \footnotesize,]{postgresql}
+            
+            
+        \end{minted}
+      
+        % Database schema goes here
+        \begin{alltt}
+             table1 (col1, col2, col3)
+             table2 (col1, col2, col3)
+        \end{alltt}
+        
+        
+    \end{enumerate}
+
+
+
+\end{document} 
